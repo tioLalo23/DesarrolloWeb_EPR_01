@@ -1,7 +1,10 @@
 # DesarrolloWeb EPR 01
-Repositorio de trabajos de la materia Desarrollo Web\n
-Semestre 2022-2\n
+Repositorio de trabajos de la materia Desarrollo Web  
+
+Semestre 2022-2  
+
 Grupo 2653
 
-Pérez Rosales Eduardo \n
+Pérez Rosales Eduardo  
+
 420090601
