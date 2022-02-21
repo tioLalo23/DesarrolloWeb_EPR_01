@@ -1,11 +1,9 @@
+/*Espacios de pagina y divisores*/
+
 .page{
     width: 8.5in;
     height: 11in;
     border: 1px solid black;
-}
-
-.text-align-right{
-    text-align: right;
 }
 
 .top-padding{
@@ -19,6 +17,22 @@
 .list-padding{
     padding: 0cm 3.32cm 0cm 2.6cm;
 }
+
+/*Alineacion de texto*/
+
+.text-align-right{
+    text-align: right;
+}
+
+.text-align-just{
+    text-align: justify;
+}
+
+.text-indent{
+    text-indent: 5.6mm;
+}
+
+/*Fuentes*/
 
 .text-font-calibri{
     font-family: Calibri;
@@ -40,14 +54,32 @@
     font-family: 'Berlin Sans FB Demi', 'Berlin Sans FB', sans-serif;
 }
 
-.text-font-a{
+.text-font-emp{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+/*Secciones*/
 .title{
     text-align: center;
     font-size: 28pt;
     color: #419fb9;
 }
+
+.column1{
+    width: 60%;
+    padding: 0cm 0.25cm 0cm 0cm;
+}
+
+.column2{
+    width: 38%;
+    border: 1px solid black;
+}
+
+.cell{
+    padding: 0cm 0.21cm;
+}
+
+/*Tamano de texto*/
 
 .text-size-12{
     font-size: 12pt;
@@ -65,27 +97,7 @@
     font-size: 15.9pt;
 }
 
-.text-align-just{
-    text-align: justify;
-}
-
-.text-indent{
-    text-indent: 5.6mm;
-}
-
-.column1{
-    width: 60%;
-    padding: 0cm 0.25cm 0cm 0cm;
-}
-
-.column2{
-    width: 38%;
-    border: 1px solid black;
-}
-
-.cell{
-    padding: 0cm 0.21cm;
-}
+/*Colores*/
 
 .text-blue{
     color:#0070c0;
