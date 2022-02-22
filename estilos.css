@@ -1,0 +1,38 @@
+/*Estilos para todas las tablas*/
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Estilos para la tabla 1*/
+
+.t1 th, .t1 td, .t1, .t2 th, .t3, .t4{
+    border: 2px solid black;
+    border-left: 1px solid black;
+}
+
+.t1 th{
+    background-color: #fce4d6;
+}
+
+/*Estilos para la tabla 2*/
+.t2 .h1{
+    background-color: #bf8f00;
+}
+
+.t2 .h2{
+    background-color: #ffd966;
+}
+
+.t2 td{
+    border: 1px solid black;
+}
+/*Estilos para la tabla 3*/
+
+/*Estilos para la tabla 4*/
