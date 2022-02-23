@@ -1,4 +1,9 @@
 /*Estilos para todas las tablas*/
+
+body{
+    text-align: center;
+}
+
 table{
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -10,13 +15,16 @@ td, th{
     padding-right: 10px;
 }
 
-/*Estilos para la tabla 1*/
+.center{
+    margin: 0% auto;
+}
 
-.t1 th, .t1 td, .t1, .t2 th, .t3, .t4{
+.t1 th, .t1 td, .t1, .t2 th, .t3, .t3 .text-red, .t4{
     border: 2px solid black;
     border-left: 1px solid black;
 }
 
+/*Estilos para la tabla 1*/
 .t1 th{
     background-color: #fce4d6;
 }
@@ -33,6 +41,47 @@ td, th{
 .t2 td{
     border: 1px solid black;
 }
+
 /*Estilos para la tabla 3*/
+.text-red{
+    color: red;
+}
+
+.t3 td{
+    border: 1px solid black;
+}
 
 /*Estilos para la tabla 4*/
+.t4 .h1{
+    background-color: #aeaaaa;
+}
+
+.t4 .h2 td{
+    background-color: #e7e6e6;
+    width: fit-content;
+    height: fit-content;
+}
+
+.t4  div{
+    width: 70px;
+    height: 75px;
+}
+
+.t4 div{
+    transform: 
+        rotate(-45deg)
+        translate(0px, 30px);
+    
+}
+
+.t4 td{
+    border: 1px solid black;
+}
+
+.t4 .bt{
+    border-top: 2px solid black;
+}
+
+.t4 .br{
+    border-right: 2px solid black;
+}
