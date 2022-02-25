@@ -1,3 +1,6 @@
+<!--Pérez Rosales Eduardo-->
+<!--420090601-->
+
 <html>
     <head>
         <title>Actividad 3: Tablas</title>
@@ -7,6 +10,9 @@
     <body>
         <h1>Tablas</h1>
         <em>Perez Rosales Eduardo - 420090601</em>
+        <!--Tabla 1-->
+        <!--Borde exterior grueso en tabla y celdas-->
+        <!--Encabezados en negritas-->
         <h2>Tabla 1: Tabla sencilla</h2>
         <table class="t1 center">
             <thead>
@@ -35,6 +41,10 @@
             </tbody>
         </table>
 
+        <!--Tabla 2-->
+        <!--Bordes gruesos en encabezados y delgados en celdas.-->
+        <!--Colores diferentes en cada encabezado-->
+        <!--Encabezados en negritas-->
         <h2>Tabla 2: Tabla con combinación de columnas</h2>
         <table class="t2 center">
             <thead>
@@ -68,18 +78,24 @@
             </tbody>
         </table>
         
+        <!--Tabla 3-->
+        <!--Bordes delgados en encabezados y celdas. Borde grueso en contorno de tabla-->
+        <!--Primera celda en color rojo, negritas y con borde grueso-->
+        <!--Encabezados en letra regular-->
         <h2>Tabla 3: Tabla con combinación de renglones</h2>
         <table class="t3 center">
+            <thead>
+                <tr>
+                    <th colspan="2" rowspan="2" class="text-red">Super OFERTA viaje a Nueva<br>Zelanda</th>
+                    <th colspan="2" class="text-regular">Hoteles 3 estrellas</th>
+                    <th rowspan="2" class="text-regular">Hoteles 4<br>estrellas</th>
+                </tr>
+                <tr>
+                    <th class="text-regular">Solo alojamiento</th>
+                    <th class="text-regular">Pensión completa</th>
+                </tr>
+            </thead>
             <tbody>
-                <tr>
-                    <td colspan="2" rowspan="2" class="text-red"><b>Super OFERTA viaje a Nueva<br>Zelanda</b></td>
-                    <td colspan="2">Hoteles 3 estrellas</td>
-                    <td rowspan="2">Hoteles 4<br>estrellas</td>
-                </tr>
-                <tr>
-                    <td>Solo alojamiento</td>
-                    <td>Pensión completa</td>
-                </tr>
                 <tr>
                     <td rowspan="2">1 semana</td>
                     <td>Avión turista</td>
@@ -102,26 +118,34 @@
             </tbody>
         </table>
 
+
+        <!--Tabla 2-->
+        <!--Bordes gruesos en encabezados y dividiendo el contenido en secciones de tres columnas.-->
+        <!--Colores diferentes en cada encabezado-->
+        <!--Texto rotado en el segundo encabezado. Se coloca un div dentro de la celda y se aplica la rotación en él.-->
+        <!--Encabezados en letra regular-->
         <h2>Tabla 4: Tabla con combinación de columnas y renglones</h2>
         <table class="t4 center">
-            <tbody>
+            <thead>
                 <tr class="h1">
-                    <td rowspan="2" class="br">Concepto</td>
-                    <td colspan="3" class="br">Entradas</td>
-                    <td colspan="3" class="br">Salidas</td>
-                    <td colspan="3" class="br">Existencias</td>
+                    <th rowspan="2" class="text-regular adjust-size br"><div class="text-rotate">Concepto</div></th>
+                    <th colspan="3" class="br text-regular">Entradas</th>
+                    <th colspan="3" class="br text-regular">Salidas</th>
+                    <th colspan="3" class="br text-regular">Existencias</th>
                 </tr>
                 <tr class="h2">
-                    <td><div><span>Cantidad</span></div></td>
-                    <td><div><span>Precio</span></div></td>
-                    <td class="br"><div><span>Total</span></div></td>
-                    <td><div><span>Cantidad</span></div></td>
-                    <td><div><span>Precio</span></div></td>
-                    <td class="br"><div><span>Total</span></div></td>
-                    <td><div><span>Cantidad</span></div></td>
-                    <td><div><span>Precio</span></div></td>
-                    <td><div><span>Total</span></div></td>
+                    <th class="text-regular adjust-size"><div class="text-rotate">Cantidad</div></th>
+                    <th class="text-regular adjust-size"><div class="text-rotate">Precio</div></th>
+                    <th class="text-regular adjust-size br"><div class="text-rotate">Total</div></th>
+                    <th class="text-regular adjust-size"><div class="text-rotate">Cantidad</div></th>
+                    <th class="text-regular adjust-size"><div class="text-rotate">Precio</div></th>
+                    <th class="text-regular adjust-size br"><div class="text-rotate">Total</div></th>
+                    <th class="text-regular adjust-size"><div class="text-rotate">Cantidad</div></th>
+                    <th class="text-regular adjust-size"><div class="text-rotate">Precio</div></th>
+                    <th class="text-regular adjust-size"><div class="text-rotate">Total</div></th>
                 </tr>
+            </thead>
+            <tbody>
                 <tr class="bt">
                     <td rowspan="2" class="br">Compra</td>
                     <td rowspan="2">300</td>

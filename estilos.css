@@ -1,3 +1,6 @@
+/*Pérez Rosales Eduardo*/
+/*420090601*/
+
 /*Estilos para todas las tablas*/
 
 body{
@@ -19,9 +22,20 @@ td, th{
     margin: 0% auto;
 }
 
+.text-regular{
+    font-weight: 400;
+}
+
+/*Bordes para todas las tablas*/
+/*Bordes gruesos para contornos de tablas*/
 .t1 th, .t1 td, .t1, .t2 th, .t3, .t3 .text-red, .t4{
     border: 2px solid black;
     border-left: 1px solid black;
+}
+
+/*Bordes delgados para contornos de celdas*/
+.t2 td, .t3 td, .t3 th, .t4 td, .t4 th{
+    border: 1px solid black;
 }
 
 /*Estilos para la tabla 1*/
@@ -38,17 +52,9 @@ td, th{
     background-color: #ffd966;
 }
 
-.t2 td{
-    border: 1px solid black;
-}
-
 /*Estilos para la tabla 3*/
 .text-red{
     color: red;
-}
-
-.t3 td{
-    border: 1px solid black;
 }
 
 /*Estilos para la tabla 4*/
@@ -56,26 +62,22 @@ td, th{
     background-color: #aeaaaa;
 }
 
-.t4 .h2 td{
+.t4 .h2{ 
     background-color: #e7e6e6;
     width: fit-content;
     height: fit-content;
 }
 
-.t4  div{
+.adjust-size{
     width: 70px;
     height: 75px;
+    place-items: center;
 }
 
-.t4 div{
+.text-rotate{
     transform: 
         rotate(-45deg)
-        translate(0px, 30px);
     
-}
-
-.t4 td{
-    border: 1px solid black;
 }
 
 .t4 .bt{
