@@ -5,14 +5,16 @@ Semestre 2022-2
 
 Grupo 2653
 
+González Ortega Fernando Elias
 Pérez Rosales Eduardo  
+
 
 420090601
 
 ## Contenido en esta rama
 
-- Actividad6
-    * login.js: Funciones que modifican el formato y acceso al sistema
-    * inicio.html: Página principal
-    * estilos.css: Bordes personalizados para los campos
+- Actividad7
+    * logoNegroNombre: Logo de la empresa
+    * headerFooter.html: Página principal
+    * estilosFooter.css: Colores adicionales para los fondos
     * bootstrap-5.1.3-dist : Carpeta de estilos de bootstrap
