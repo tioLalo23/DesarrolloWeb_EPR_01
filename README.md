@@ -5,8 +5,8 @@ Semestre 2022-2
 
 Grupo 2653
 
-González Ortega Fernando Elias
-Pérez Rosales Eduardo  
+- González Ortega Fernando Elias
+- Pérez Rosales Eduardo  
 
 
 420090601
